@@ -22,7 +22,7 @@ module.exports = {
       multiline: true
     }],
     'arrow-parens': [2, 'as-needed', { requireForBlockBody: true }],
-    camelCase: ['warning', { ignoreDestructuring: true }],
+    camelcase: ['warn', { ignoreDestructuring: true }],
     'comma-dangle': ['error', 'always-multiline'],
     'max-len': ['error', { code: 100 }],
     'no-console': 'off',
