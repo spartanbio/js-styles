@@ -32,6 +32,5 @@ module.exports = {
       consistent: true,
       multiline: true,
     }],
-    'sort-imports': 'error'
   },
 }
