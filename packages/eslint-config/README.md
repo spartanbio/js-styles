@@ -17,11 +17,11 @@ $ npm i -D @spartanbio/eslint-config
 2. Add the [`peerDependencies`](./package.json) to your project
 
 ```bash
-$ yarn add -D eslint eslint-config-prettier eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-standard prettier
+$ yarn add -D eslint eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard prettier
 
 # or
 
-$ npm i -D eslint eslint-config-prettier eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-standard prettier
+$ npm i -D eslint eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard prettier
 ```
 
 3. Add `.eslintrc.js` with the following:
