@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "lint": "eslint . --config=index.js",
-    "release": "standard-version && git push --follow-tags && npm publish"
+    "release": "standard-version && git push --follow-tags && npm publish --access public"
   },
   "devDependencies": {
     "eslint": ">=5.16.0",
