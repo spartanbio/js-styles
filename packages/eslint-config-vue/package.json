@@ -6,7 +6,9 @@
   "repository": "https://gitlab.com/spartanbio-ux/eslint-config-vue.git",
   "author": "Spartan Bioscience Inc.",
   "license": "MIT",
-  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "lint": "eslint . --config=index.js",
     "release": "standard-version && git push --follow-tags && yarn publish --access public"
