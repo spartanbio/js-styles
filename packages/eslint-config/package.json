@@ -1,7 +1,7 @@
 {
   "name": "@spartanbio/eslint-config",
   "version": "1.0.0",
-  "description": "Spartan Bio's eslint config with prettier",
+  "description": "Spartan Bio's ESLint config",
   "main": "index.js",
   "author": "Spartan Bioscience Inc.",
   "license": "MIT",
