@@ -1,0 +1,37 @@
+module.exports = {
+  env: {
+    browser: true,
+    node: true,
+    'jest/globals': true,
+  },
+  extends: ['standard', 'plugin:jest/recommended'],
+  plugins: ['standard', 'jest'],
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.mjs'],
+      },
+    },
+  },
+  rules: {
+    'array-bracket-newline': ['error', {
+      multiline: true
+    }],
+    'array-element-newline': ['error', {
+      minItems: 3,
+      multiline: true
+    }],
+    'arrow-parens': [2, 'as-needed', { requireForBlockBody: true }],
+    camelCase: ['warning', { ignoreDestructuring: true }],
+    'comma-dangle': ['error', 'always-multiline'],
+    'max-len': ['error', { code: 100 }],
+    'no-console': 'off',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 0,
+    'no-return-assign': ['error', 'always'],
+    'object-curly-newline': ['error', {
+      consistent: true,
+      multiline: true,
+    }],
+    'sort-imports': 'error'
+  },
+}
