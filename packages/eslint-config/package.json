@@ -3,6 +3,9 @@
   "version": "1.0.1",
   "description": "Spartan Bio's ESLint config",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Spartan Bioscience Inc.",
   "license": "MIT",
   "homepage": "https://gitlab.com/spartanbio-ux/eslint-config",
@@ -13,9 +16,6 @@
   "bugs": {
     "url": "https://gitlab.com/spartanbio-ux/eslint-config.git"
   },
-  "files": [
-    "index.js"
-  ],
   "scripts": {
     "lint": "eslint . --config=index.js",
     "release": "standard-version && git push --follow-tags && npm publish --access public"
