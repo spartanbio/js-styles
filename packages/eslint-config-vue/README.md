@@ -14,14 +14,14 @@ $ yarn add -D @spartanbio/eslint-config-vue
 $ npm i -D @spartanbio/eslint-config-vue
 ```
 
-2. Add the `@spartanbio/eslint-config` and its [`peerDependencies`](https://gitlab.com/spartanbio-ux/eslint-config/blob/master/package.json) to your project
+2. Add `@spartanbio/eslint-config` and its [`peerDependencies`](https://gitlab.com/spartanbio-ux/eslint-config/blob/master/package.json) to your project
 
 ```bash
-$ yarn add -D eslint eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard
+$ yarn add -D @spartanbio/eslint-config eslint eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard
 
 # or
 
-$ npm i -D eslint eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard
+$ npm i -D @spartanbio/eslint-config eslint eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard
 ```
 
 3. Add `.eslintrc.js` with the following:
