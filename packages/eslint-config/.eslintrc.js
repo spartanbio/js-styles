@@ -14,13 +14,8 @@ module.exports = {
     },
   },
   rules: {
-    'array-bracket-newline': ['error', {
-      multiline: true
-    }],
-    'array-element-newline': ['error', {
-      minItems: 3,
-      multiline: true
-    }],
+    'array-bracket-newline': ['error', 'consistent'],
+    'array-element-newline': ['error', 'consistent'],
     'arrow-parens': [2, 'as-needed', { requireForBlockBody: true }],
     camelcase: ['warn', { ignoreDestructuring: true }],
     'comma-dangle': ['error', 'always-multiline'],
