@@ -8,6 +8,7 @@ module.exports = {
     'vue/camelcase': ['warn', { ignoreDestructuring: true }],
     'vue/comma-dangle': ['error', 'always-multiline'],
     'vue/component-name-in-template-casing': [
+      'error',
       'PascalCase',
       {
         registeredComponentsOnly: true
