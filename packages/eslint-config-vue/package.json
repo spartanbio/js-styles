@@ -1,6 +1,6 @@
 {
   "name": "@spartanbio/eslint-config-vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Spartan Bio's ESLint config for Vue",
   "main": "index.js",
   "repository": "https://gitlab.com/spartanbio-ux/eslint-config-vue.git",
