@@ -1,0 +1,40 @@
+{
+  "name": "@spartanbio/stylelint-config-scss",
+  "version": "1.0.0",
+  "description": "Spartan Bio's stylelint config for scss",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "https://gitlab.com/spartanbio-ux/stylelint-config-scss.git",
+  "bugs": {
+    "url": "https://gitlab.com/spartanbio-ux/stylelint-config-scss.git"
+  },
+  "author": "Spartan Bioscience Inc.",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "lint": "eslint .",
+    "release": "standard-version && git push --follow-tags && yarn publish --access public"
+  },
+  "devDependencies": {
+    "@spartanbio/eslint-config": "^1.0.6",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jest": "^22.6.4",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "standard-version": "^6.0.1",
+    "stylelint": "^10.1.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^10.1.0"
+  },
+  "dependencies": {
+    "@spartanbio/stylelint-config": "^1.0.1",
+    "stylelint-config-standard-scss": "^1.1.0",
+    "stylelint-scss": "^3.8.0"
+  }
+}
