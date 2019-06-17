@@ -11,7 +11,7 @@ module.exports = {
       'error',
       'PascalCase',
       {
-        registeredComponentsOnly: true
+        registeredComponentsOnly: false
       }
     ],
     'vue/eqeqeq': ['error', 'smart'],
