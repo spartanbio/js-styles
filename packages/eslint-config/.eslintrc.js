@@ -19,13 +19,22 @@ module.exports = {
     'arrow-parens': [2, 'as-needed', { requireForBlockBody: true }],
     camelcase: ['warn', { ignoreDestructuring: true }],
     'comma-dangle': ['error', 'always-multiline'],
-    'max-len': ['error', { code: 100, ignoreStrings: true, ignoreUrls: true, ignoreComments }],
+    'max-len': ['error',
+      {
+        code: 100,
+        ignoreStrings: true,
+        ignoreUrls: true,
+        ignoreComments: true
+      }
+    ],
     'no-console': 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 0,
     'no-return-assign': ['error', 'always'],
-    'object-curly-newline': ['error', {
-      consistent: true,
-      multiline: true,
-    }],
+    'object-curly-newline': ['error',
+      {
+        consistent: true,
+        multiline: true,
+      }
+    ],
   },
 }
