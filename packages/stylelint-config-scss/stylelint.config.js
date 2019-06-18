@@ -5,6 +5,21 @@ module.exports = {
     'stylelint-config-standard-scss',
   ],
   rules: {
+    'at-rule-empty-line-before': [
+      'always',
+      {
+        except: ['first-nested', 'blockless-after-same-name-blockless'],
+        ignore: ['after-comment'],
+        ignoreAtRules: ['else'],
+      },
+    ],
+
+    'block-closing-brace-newline-after': [
+      'always',
+      {
+        ignoreAtRules: ['if', 'else'],
+      },
+    ],
     // For the sake of playing nice with the prettier formatter
     'declaration-colon-newline-after': null,
     'value-list-comma-newline-after': null,
