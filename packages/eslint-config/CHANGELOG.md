@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.8](https://gitlab.com/spartanbio-ux/eslint-config/compare/v1.0.7...v1.0.8) (2019-06-18)
+
+
+### Bug Fixes
+
+* **max-len:** ignores comments ([f4a21d5](https://gitlab.com/spartanbio-ux/eslint-config/commit/f4a21d5))
+
+
+
 ### [1.0.7](https://gitlab.com/spartanbio-ux/eslint-config/compare/v1.0.6...v1.0.7) (2019-06-17)
 
 
