@@ -15,7 +15,7 @@
   "private": false,
   "scripts": {
     "lint": "eslint .",
-    "release": "standard-version && git push --follow-tags && yarn publish --access public"
+    "release": "standard-version && git push --follow-tags && yarn publish --non-interactive"
   },
   "devDependencies": {
     "@spartanbio/eslint-config": "^1.0.6",
