@@ -1,6 +1,6 @@
 {
   "name": "@spartanbio/stylelint-config-scss",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Spartan Bio's stylelint config for scss",
   "main": "index.js",
   "publishConfig": {
