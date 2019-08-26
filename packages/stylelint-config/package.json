@@ -18,15 +18,15 @@
     "release": "standard-version && git push --follow-tags && yarn publish --non-interactive"
   },
   "devDependencies": {
-    "@spartanbio/eslint-config": "^1.0.6",
-    "eslint": "^5.16.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.17.3",
-    "eslint-plugin-jest": "^22.6.4",
+    "@spartanbio/eslint-config": "^1.0.11",
+    "eslint": "^6.2.2",
+    "eslint-config-standard": "^14.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.15.2",
     "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-promise": "^4.1.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "standard-version": "^6.0.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "standard-version": "^7.0.0",
     "stylelint": "^10.1.0"
   },
   "peerDependencies": {
@@ -34,6 +34,6 @@
   },
   "dependencies": {
     "stylelint-config-standard": "^18.3.0",
-    "stylelint-order": "^3.0.0"
+    "stylelint-order": "^3.0.1"
   }
 }
