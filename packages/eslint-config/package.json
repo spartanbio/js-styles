@@ -8,13 +8,14 @@
   },
   "author": "Spartan Bioscience Inc.",
   "license": "MIT",
-  "homepage": "https://gitlab.com/spartanbio-ux/eslint-config",
+  "homepage": "https://gitlab.com/spartanbio-ux/code-styles",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/spartanbio-ux/eslint-config.git"
+    "url": "https://gitlab.com/spartanbio-ux/code-styles.git",
+    "directory": "packages/eslint-config"
   },
   "bugs": {
-    "url": "https://gitlab.com/spartanbio-ux/eslint-config.git"
+    "url": "https://gitlab.com/spartanbio-ux/code-styles.git"
   },
   "scripts": {
     "lint": "eslint . --config=index.js"
