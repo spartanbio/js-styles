@@ -17,8 +17,7 @@
     "url": "https://gitlab.com/spartanbio-ux/eslint-config.git"
   },
   "scripts": {
-    "lint": "eslint . --config=index.js",
-    "release": "standard-version && git push --follow-tags && yarn publish --non-interactive"
+    "lint": "eslint . --config=index.js"
   },
   "peerDependencies": {
     "eslint": "^5.16.0",

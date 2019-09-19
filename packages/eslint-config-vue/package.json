@@ -10,8 +10,7 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint . --config=index.js",
-    "release": "standard-version && git push --follow-tags && yarn publish --non-interactive"
+    "lint": "eslint . --config=index.js"
   },
   "peerDependencies": {
     "@spartanbio/eslint-config": ">=1.0.1",

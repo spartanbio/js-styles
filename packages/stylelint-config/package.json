@@ -14,8 +14,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "lint": "eslint .",
-    "release": "standard-version && git push --follow-tags && yarn publish --non-interactive"
+    "lint": "eslint ."
   },
   "peerDependencies": {
     "stylelint": "^10.1.0"
