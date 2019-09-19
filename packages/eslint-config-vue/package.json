@@ -3,7 +3,12 @@
   "version": "1.0.5",
   "description": "Spartan Bio's ESLint config for Vue",
   "main": "index.js",
-  "repository": "https://gitlab.com/spartanbio-ux/eslint-config-vue.git",
+  "homepage": "https://gitlab.com/spartanbio-ux/code-styles",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/spartanbio-ux/code-styles.git",
+    "directory": "packages/eslint-config-vue"
+  },
   "author": "Spartan Bioscience Inc.",
   "license": "MIT",
   "publishConfig": {
