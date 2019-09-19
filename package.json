@@ -2,7 +2,8 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "release": "learna publish --conventional-commits"
   },
   "devDependencies": {
     "@spartanbio/eslint-config": "^1.0.11",
