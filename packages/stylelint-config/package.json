@@ -6,9 +6,11 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": "https://gitlab.com/spartanbio-ux/stylelint-config.git",
-  "bugs": {
-    "url": "https://gitlab.com/spartanbio-ux/stylelint-config.git"
+  "homepage": "https://gitlab.com/spartanbio-ux/code-styles",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/spartanbio-ux/code-styles.git",
+    "directory": "packages/stylelint-config"
   },
   "author": "Spartan Bioscience Inc.",
   "license": "MIT",
