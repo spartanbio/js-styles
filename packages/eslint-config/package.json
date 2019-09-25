@@ -1,6 +1,6 @@
 {
   "name": "@spartanbio/eslint-config",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Spartan Bio's ESLint config",
   "main": "index.js",
   "publishConfig": {

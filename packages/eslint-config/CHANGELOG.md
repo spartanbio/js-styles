@@ -1,3 +1,16 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [1.0.13](https://gitlab.com/spartanbio-ux/code-styles/compare/@spartanbio/eslint-config@1.0.12...@spartanbio/eslint-config@1.0.13) (2019-09-25)
+
+**Note:** Version bump only for package @spartanbio/eslint-config
+
+
+
+
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
