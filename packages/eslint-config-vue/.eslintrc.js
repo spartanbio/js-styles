@@ -1,25 +1,55 @@
 module.exports = {
-  extends: ['@spartanbio/eslint-config', 'plugin:vue/recommended'],
-  plugins: ['vue'],
+  extends: [
+    '@spartanbio/eslint-config',
+    'plugin:vue/recommended',
+  ],
+  plugins: [
+    'vue',
+  ],
   rules: {
-    'vue/arrow-spacing': ['error', { before: true, after: true }],
+    'vue/arrow-spacing': [
+      'error',
+      {
+        before: true,
+        after: true,
+      },
+    ],
     'vue/block-spacing': ['error', 'always'],
-    'vue/brace-style': ['error', '1tbs', { allowSingleLine: true }],
-    'vue/camelcase': ['warn', { ignoreDestructuring: true }],
+    'vue/brace-style': [
+      'error',
+      '1tbs',
+      {
+        allowSingleLine: true,
+      },
+    ],
+    'vue/camelcase': [
+      'warn',
+      {
+        ignoreDestructuring: true,
+      },
+    ],
     'vue/comma-dangle': ['error', 'always-multiline'],
     'vue/component-name-in-template-casing': [
       'error',
       'PascalCase',
       {
-        registeredComponentsOnly: false
-      }
+        registeredComponentsOnly: false,
+      },
     ],
     'vue/eqeqeq': ['error', 'smart'],
-    'vue/key-spacing': ['error', { beforeColon: false, afterColon: true }],
+    'vue/key-spacing': ['error',
+      {
+        beforeColon: false,
+        afterColon: true,
+      }],
     'vue/match-component-file-name': [
       'error',
       {
-        extensions: ['vue', 'js', 'jsx'],
+        extensions: [
+          'vue',
+          'js',
+          'jsx',
+        ],
         shouldMatchCase: true,
       },
     ],

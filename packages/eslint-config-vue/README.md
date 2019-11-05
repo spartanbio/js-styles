@@ -4,32 +4,22 @@
 
 ## Usage
 
-1. Add this package to `devDependencies`
+1. Add this package and its peer dependencies to `devDependencies`
 
 ```bash
-$ yarn add -D @spartanbio/eslint-config-vue
+$ yarn add -D @spartanbio/eslint-config-vue @spartanbio/eslint-config eslint eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard eslint-plugin-vue
 
 # or
 
-$ npm i -D @spartanbio/eslint-config-vue
+$ npm i -D @spartanbio/eslint-config-vue @spartanbio/eslint-config eslint eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard eslint-plugin-vue
 ```
 
-2. Add `@spartanbio/eslint-config` and its [`peerDependencies`](https://gitlab.com/spartanbio-ux/eslint-config/blob/master/package.json) to your project
-
-```bash
-$ yarn add -D @spartanbio/eslint-config eslint eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard
-
-# or
-
-$ npm i -D @spartanbio/eslint-config eslint eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard
-```
-
-3. Add `.eslintrc.js` with the following:
+2. Add `.eslintrc.js` with the following:
 
 ```js
 module.exports = {
-  extends: ["@spartanbio/eslint-config-vue"]
-};
+  extends: ['@spartanbio/eslint-config-vue'],
+}
 ```
 
 If using babel, use:
@@ -38,9 +28,9 @@ If using babel, use:
 module.exports = {
   root: true,
   parserOptions: {
-    parser: "babel-eslint",
-    sourceType: "module"
+    parser: 'babel-eslint',
+    sourceType: 'module',
   },
-  extends: ["@spartanbio/eslint-config-vue"]
-};
+  extends: ['@spartanbio/eslint-config-vue'],
+}
 ```
