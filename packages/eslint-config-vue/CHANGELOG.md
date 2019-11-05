@@ -1,5 +1,18 @@
 # Change Log
 
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [1.0.7](https://gitlab.com/spartanbio-ux/code-styles/compare/@spartanbio/eslint-config-vue@1.0.6...@spartanbio/eslint-config-vue@1.0.7) (2019-11-05)
+
+**Note:** Version bump only for package @spartanbio/eslint-config-vue
+
+
+
+
+
+# Change Log
+
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
