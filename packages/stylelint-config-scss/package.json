@@ -19,7 +19,7 @@
     "lint": "eslint ."
   },
   "peerDependencies": {
-    "stylelint": "^12.0.0"
+    "stylelint": "^13.0.0"
   },
   "dependencies": {
     "@spartanbio/stylelint-config": "^1.0.5",
