@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://gitlab.com/spartanbio-ux/code-styles/compare/@spartanbio/eslint-config@1.0.14...@spartanbio/eslint-config@1.1.0) (2020-01-27)
+
+
+### Features
+
+* **eslint-config:** adds newline-per-chained-call ([4b0ec11](https://gitlab.com/spartanbio-ux/code-styles/commit/4b0ec11bb92f47a59ca808a157cc53d6c48fd193))
+
+
+
+
+
 ## [1.0.14](https://gitlab.com/spartanbio-ux/code-styles/compare/@spartanbio/eslint-config@1.0.13...@spartanbio/eslint-config@1.0.14) (2019-11-05)
 
 
