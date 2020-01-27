@@ -54,6 +54,12 @@ module.exports = {
         ignoreComments: true,
       },
     ],
+    'newline-per-chained-call': [
+      'error',
+      {
+        ignoreChainWithDepth: 2,
+      },
+    ],
     'no-console': 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 0,
     'no-return-assign': [
