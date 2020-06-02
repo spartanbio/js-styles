@@ -6,10 +6,10 @@
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://gitlab.com/spartanbio-ux/code-styles",
+  "homepage": "https://github.com/spartanbio/js-styles",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/spartanbio-ux/code-styles.git",
+    "url": "https://github.com/spartanbio/js-styles.git",
     "directory": "packages/stylelint-config-scss"
   },
   "author": "Spartan Bioscience Inc.",
