@@ -16,7 +16,7 @@
     "eslint-plugin-vue": "6.2.2",
     "lerna": "3.22.0",
     "standard-version": "8.0.0",
-    "stylelint": "13.5.0"
+    "stylelint": "13.6.0"
   },
   "workspaces": [
     "packages/*"
