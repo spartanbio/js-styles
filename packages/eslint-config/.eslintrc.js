@@ -49,6 +49,7 @@ module.exports = {
       'error',
       'always-multiline',
     ],
+    'default-param-last': 'error',
     'guard-for-in': 'error',
     'max-len': [
       'error',
