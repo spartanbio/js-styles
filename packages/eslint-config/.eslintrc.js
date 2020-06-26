@@ -68,6 +68,7 @@ module.exports = {
       'error',
       'always',
     ],
+    'no-shadow': 'error',
     'no-unused-vars': [
       'error',
       {
