@@ -62,8 +62,6 @@ module.exports = {
         ignoreChainWithDepth: 2,
       },
     ],
-    'no-console': 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 0,
     'no-return-assign': [
       'error',
       'always',
@@ -74,6 +72,10 @@ module.exports = {
         consistent: true,
         multiline: true,
       },
+    ],
+    'object-shorthand': [
+      'error',
+      'always',
     ],
   },
 }
