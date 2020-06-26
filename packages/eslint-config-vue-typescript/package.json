@@ -20,6 +20,7 @@
   "peerDependencies": {
     "@spartanbio/eslint-config-typescript": ">=1.0.0",
     "@spartanbio/eslint-config-vue": ">=1.0.0",
+    "@typescript-eslint/parser": "^3.4.0",
     "eslint": ">=5.16.0",
     "eslint-plugin-vue": ">=5.2.2"
   }
