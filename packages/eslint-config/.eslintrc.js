@@ -62,6 +62,7 @@ module.exports = {
         ignoreChainWithDepth: 2,
       },
     ],
+    'no-alert': 'warn',
     'no-return-assign': [
       'error',
       'always',
