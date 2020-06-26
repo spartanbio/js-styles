@@ -75,6 +75,8 @@ module.exports = {
         ignoreRestSiblings: true,
       },
     ],
+    'no-return-await': 'error',
+    'no-script-url': 'error',
     'object-curly-newline': [
       'error',
       {
@@ -86,6 +88,8 @@ module.exports = {
       'error',
       'always',
     ],
+    radix: 'error',
+    'require-await': 'off',
     semi: [
       'error',
       'always',
