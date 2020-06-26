@@ -48,10 +48,12 @@ module.exports = {
     'max-len': [
       'error',
       {
-        code: 100,
+        code: 120,
+        ignoreComments: false,
+        ignoreRegExpLiterals: true,
         ignoreStrings: true,
+        ignoreTemplateLiterals: true,
         ignoreUrls: true,
-        ignoreComments: true,
       },
     ],
     'newline-per-chained-call': [
