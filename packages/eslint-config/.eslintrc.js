@@ -29,7 +29,7 @@ module.exports = {
       'consistent',
     ],
     'arrow-parens': [
-      2,
+      'error',
       'as-needed',
       {
         requireForBlockBody: true,
