@@ -22,5 +22,13 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@spartanbio/eslint-config": "file:packages/eslint-config",
+    "@spartanbio/eslint-config-typescript": "file:packages/eslint-config-typescript",
+    "@spartanbio/eslint-config-vue": "file:packages/eslint-config-vue",
+    "@spartanbio/eslint-config-vue-typescript": "file:packages/eslint-config-vue-typescript",
+    "@spartanbio/stylelint-config": "file:packages/stylelint-config",
+    "@spartanbio/stylelint-config-scss": "file:packages/stylelint-config-scss"
+  }
 }
