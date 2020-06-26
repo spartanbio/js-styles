@@ -69,6 +69,7 @@ module.exports = {
       },
     ],
     'no-alert': 'warn',
+    'no-loop-func': 'error',
     'no-return-assign': [
       'error',
       'always',
