@@ -1,0 +1,26 @@
+{
+  "name": "@spartanbio/eslint-config-vue-typescript",
+  "version": "0.0.0",
+  "description": "Spartan Bio's ESLint config for Vue and Typescript",
+  "main": "index.js",
+  "homepage": "https://github.com/spartanbio/js-styles",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spartanbio/js-styles.git",
+    "directory": "packages/eslint-config-vue"
+  },
+  "author": "Spartan Bioscience Inc.",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "@spartanbio/eslint-config-typescript": ">=1.0.0",
+    "@spartanbio/eslint-config-vue": ">=1.0.0",
+    "eslint": ">=5.16.0",
+    "eslint-plugin-vue": ">=5.2.2"
+  }
+}
