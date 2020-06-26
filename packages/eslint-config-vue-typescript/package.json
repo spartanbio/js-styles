@@ -1,6 +1,6 @@
 {
   "name": "@spartanbio/eslint-config-vue-typescript",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Spartan Bio's ESLint config for Vue and Typescript",
   "main": "index.js",
   "homepage": "https://github.com/spartanbio/js-styles",

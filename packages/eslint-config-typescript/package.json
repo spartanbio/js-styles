@@ -1,6 +1,6 @@
 {
   "name": "@spartanbio/eslint-config-typescript",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Spartan Bio's eslint config for typescript",
   "main": "index.js",
   "repository": "https://github.com/spartanbio/js-styles",
