@@ -7,6 +7,14 @@ module.exports = {
     'vue',
   ],
   rules: {
+    'no-shadow': [
+      'error',
+      {
+        allow: [
+          'state',
+        ],
+      },
+    ],
     'vue/arrow-spacing': [
       'error',
       {
