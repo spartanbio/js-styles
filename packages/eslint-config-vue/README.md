@@ -7,11 +7,7 @@
 1. Add this package and its peer dependencies to `devDependencies`
 
 ```bash
-$ yarn add -D @spartanbio/eslint-config-vue @spartanbio/eslint-config eslint eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard eslint-plugin-vue
-
-# or
-
-$ npm i -D @spartanbio/eslint-config-vue @spartanbio/eslint-config eslint eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard eslint-plugin-vue
+$ npx install-peerdeps --dev @spartanbio/eslint-config-vue
 ```
 
 2. Add `.eslintrc.js` with the following:
@@ -19,7 +15,7 @@ $ npm i -D @spartanbio/eslint-config-vue @spartanbio/eslint-config eslint eslint
 ```js
 module.exports = {
   extends: ['@spartanbio/eslint-config-vue'],
-}
+};
 ```
 
 If using babel, use:
@@ -32,5 +28,5 @@ module.exports = {
     sourceType: 'module',
   },
   extends: ['@spartanbio/eslint-config-vue'],
-}
+};
 ```
