@@ -7,11 +7,7 @@
 1. Add this package its peer dependencies to `devDependencies`
 
 ```bash
-$ yarn add -D @spartanbio/eslint-config eslint eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard
-
-# or
-
-$ npm i -D @spartanbio/eslint-config eslint eslint-config-standard eslint-plugin-import eslint-plugin-jest eslint-plugin-node eslint-plugin-promise eslint-plugin-standard
+$ npx install-peerdeps --dev @spartanbio/eslint-config
 ```
 
 2. Add `.eslintrc.js` with the following:
@@ -19,7 +15,7 @@ $ npm i -D @spartanbio/eslint-config eslint eslint-config-standard eslint-plugin
 ```js
 module.exports = {
   extends: ['@spartanbio'],
-}
+};
 ```
 
 If using babel, use:
@@ -32,5 +28,5 @@ module.exports = {
     sourceType: 'module',
   },
   extends: ['@spartanbio'],
-}
+};
 ```
