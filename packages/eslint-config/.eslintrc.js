@@ -88,6 +88,7 @@ module.exports = {
       'error',
       'always',
     ],
+    'prefer-rest-params': 'error',
     radix: 'error',
     'require-await': 'off',
     semi: [
