@@ -1,0 +1,23 @@
+{
+  "name": "@spartanbio/eslint-config-typescript",
+  "version": "0.0.0",
+  "description": "Spartan Bio's eslint config for typescript",
+  "main": "index.js",
+  "repository": "https://github.com/spartanbio/js-styles",
+  "author": "Spartan Bioscience Inc.",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "@spartanbio/eslint-config": "^1.1.1",
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0",
+    "eslint": "^7.0.0",
+    "typescript": "^3.9.5"
+  }
+}
