@@ -70,6 +70,7 @@ module.exports = {
     ],
     'no-alert': 'warn',
     'no-loop-func': 'error',
+    'no-nested-ternary': 'error',
     'no-return-assign': [
       'error',
       'always',
