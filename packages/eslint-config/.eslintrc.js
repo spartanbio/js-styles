@@ -24,6 +24,10 @@ module.exports = {
       'error',
       'consistent',
     ],
+    'array-callback-return': [
+      'error',
+      { allowImplicit: true },
+    ],
     'array-element-newline': [
       'error',
       'consistent',
