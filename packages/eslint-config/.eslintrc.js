@@ -24,12 +24,16 @@ module.exports = {
       'error',
       'consistent',
     ],
+    'array-callback-return': [
+      'error',
+      { allowImplicit: true },
+    ],
     'array-element-newline': [
       'error',
       'consistent',
     ],
     'arrow-parens': [
-      2,
+      'error',
       'as-needed',
       {
         requireForBlockBody: true,
@@ -45,13 +49,17 @@ module.exports = {
       'error',
       'always-multiline',
     ],
+    'default-param-last': 'error',
+    'guard-for-in': 'error',
     'max-len': [
       'error',
       {
-        code: 100,
+        code: 120,
+        ignoreComments: false,
+        ignoreRegExpLiterals: true,
         ignoreStrings: true,
+        ignoreTemplateLiterals: true,
         ignoreUrls: true,
-        ignoreComments: true,
       },
     ],
     'newline-per-chained-call': [
@@ -60,12 +68,24 @@ module.exports = {
         ignoreChainWithDepth: 2,
       },
     ],
-    'no-console': 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 0,
+    'no-alert': 'warn',
+    'no-loop-func': 'error',
+    'no-nested-ternary': 'error',
     'no-return-assign': [
       'error',
       'always',
     ],
+    'no-shadow': 'error',
+    'no-unused-vars': [
+      'error',
+      {
+        vars: 'all',
+        args: 'after-used',
+        ignoreRestSiblings: true,
+      },
+    ],
+    'no-return-await': 'error',
+    'no-script-url': 'error',
     'object-curly-newline': [
       'error',
       {
@@ -73,5 +93,27 @@ module.exports = {
         multiline: true,
       },
     ],
+    'object-shorthand': [
+      'error',
+      'always',
+    ],
+    'prefer-rest-params': 'error',
+    radix: 'error',
+    'require-await': 'off',
+    semi: [
+      'error',
+      'always',
+    ],
+    'semi-spacing': [
+      'error',
+      {
+        before: false,
+        after: true,
+      },
+    ],
+    'semi-style': [
+      'error',
+      'last',
+    ],
   },
-}
+};

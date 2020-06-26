@@ -7,6 +7,14 @@ module.exports = {
     'vue',
   ],
   rules: {
+    'no-shadow': [
+      'error',
+      {
+        allow: [
+          'state',
+        ],
+      },
+    ],
     'vue/arrow-spacing': [
       'error',
       {
@@ -28,7 +36,10 @@ module.exports = {
         ignoreDestructuring: true,
       },
     ],
-    'vue/comma-dangle': ['error', 'always-multiline'],
+    'vue/comma-dangle': [
+      'error',
+      'always-multiline',
+    ],
     'vue/component-name-in-template-casing': [
       'error',
       'PascalCase',
@@ -37,11 +48,13 @@ module.exports = {
       },
     ],
     'vue/eqeqeq': ['error', 'smart'],
-    'vue/key-spacing': ['error',
+    'vue/key-spacing': [
+      'error',
       {
         beforeColon: false,
         afterColon: true,
-      }],
+      },
+    ],
     'vue/match-component-file-name': [
       'error',
       {
@@ -54,7 +67,7 @@ module.exports = {
       },
     ],
     'vue/max-attributes-per-line': [
-      2,
+      'error',
       {
         singleline: 1,
         multiline: {
@@ -63,5 +76,17 @@ module.exports = {
         },
       },
     ],
+    'vue/max-len': [
+      'error',
+      {
+        code: 120,
+        ignoreHTMLAttributeValues: true,
+        ignoreComments: true,
+        ignoreStrings: true,
+        ignoreTemplateLiterals: true,
+        ignoreRegExpLiterals: true,
+        ignoreUrls: true,
+      },
+    ],
   },
-}
+};
