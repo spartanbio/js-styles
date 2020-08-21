@@ -15,6 +15,9 @@ module.exports = {
         // The core 'no-unused-vars' rules (in the eslint:recommeded ruleset)
         // does not work with type definitions
         'no-unused-vars': 'off',
+        // ensures constructor overloading works properly. see https://github.com/typescript-eslint/typescript-eslint/issues/420
+        'no-useless-constructor': 'off',
+        '@typescript-eslint/no-useless-constructor': 'error',
       },
     },
     {
