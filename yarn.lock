@@ -993,9 +993,9 @@
     "@octokit/types" "^5.0.0"
 
 "@octokit/core@^3.1.0":
-  version "3.1.3"
-  resolved "https://registry.yarnpkg.com/@octokit/core/-/core-3.1.3.tgz#70429f2fe3ad127fd2be75ffce10ca11e650f4cc"
-  integrity sha512-s5UyENGUQBB+ocEOulXq6UH5J16fxuKY2J7ZYrIu9oJYAn0nCwM8hC8o4L23HEzU0SFzNEX86+ffc1T3Vr2ybg==
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@octokit/core/-/core-3.2.0.tgz#7a872ad4cb8d8d2f417dd7fe1aaff3919c09dc04"
+  integrity sha512-42jzu1GWlCr4KUo52X4hD3if2AwjNJLzsS8mqUs9JkJbsM3vzvSx8AqTnVBQjOM0hQMYBqR7/7SAUTfH7IZqIg==
   dependencies:
     "@octokit/auth-token" "^2.4.0"
     "@octokit/graphql" "^4.3.1"
