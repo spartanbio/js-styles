@@ -1,0 +1,29 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: eslint
+    versions:
+    - 7.24.0
+  - dependency-name: typescript
+    versions:
+    - 3.9.8
+    - 4.2.3
+  - dependency-name: "@typescript-eslint/parser"
+    versions:
+    - 4.15.0
+    - 4.15.2
+    - 4.16.0
+  - dependency-name: stylelint
+    versions:
+    - 13.10.0
+  - dependency-name: eslint-plugin-promise
+    versions:
+    - 4.3.0
+  - dependency-name: "@typescript-eslint/eslint-plugin"
+    versions:
+    - 4.15.0
